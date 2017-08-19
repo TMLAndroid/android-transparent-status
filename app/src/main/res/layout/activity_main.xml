@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lancoo.tangminglong.android_transparent_status.MainActivity">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_one"
+        android:text="@string/way_one"
+        style="@style/Button_Style" />
+    <Button
+        android:id="@+id/btn_two"
+        android:text="@string/way_two"
+        style="@style/Button_Style"/>
+    <Button
+        android:id="@+id/btn_three"
+        android:text="@string/way_three"
+        style="@style/Button_Style"/>
+
+    </LinearLayout>
+
+</FrameLayout>
